@@ -1,35 +1,30 @@
 <script lang="ts">
 	import SizedBox from "./sizedBox.svelte";
 	import { colors } from "$lib/theme";
+	import { page } from "$app/stores";
+	import Row from "./row.svelte";
 </script>
 
-<div class="navbar" style="--color:{colors.deepRed}">
-	<div class="menu-items">
-		<h2>
-			<a href="/">Home</a>
+<Row justifyContent="space-between" alignItems="center">
+	<Row>
+		<h2 style="--color:{colors.deepRed}">
+			<a class={$page.url.pathname === "/" ? "show-underline" : ""} href="/">Home</a>
 		</h2>
 		<SizedBox width={40} />
 		<h2>
-			<a href="#2">Projects</a>
+			<a class={$page.url.pathname === "/projects" ? "show-underline" : ""} href="/projects"
+				>Projects</a
+			>
 		</h2>
 		<SizedBox width={40} />
 		<h2>
-			<a href="#3">About Me</a>
+			<a class={$page.url.pathname === "/about" ? "show-underline" : ""} href="/about">About Me</a>
 		</h2>
-	</div>
+	</Row>
 	<img src="assets/personal_logo_red.svg" alt="personal_logo" />
-</div>
+</Row>
 
 <style>
-	.navbar {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	.menu-items {
-		display: flex;
-	}
-
 	a {
 		position: relative;
 		text-decoration: none;
@@ -51,8 +46,7 @@
 	}
 
 	a:hover::after,
-	a:focus::after,
-	a:active::after {
+	.show-underline::after {
 		transform: scale(1);
 	}
 
