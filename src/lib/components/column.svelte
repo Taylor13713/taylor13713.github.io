@@ -2,9 +2,14 @@
 	export let alignItems: string = "";
 	export let justifyContent: string = "";
 	export let height: string = "auto";
+	export let verticalPadding: number = 0;
+	export let horizontalPadding: number = 0;
 </script>
 
-<div style="--align: {alignItems}; --justify: {justifyContent}; --height: {height}">
+<div
+	style="--align: {alignItems}; --justify: {justifyContent}; --height: {height}; --verticalPad: {verticalPadding +
+		'px'}; --horizontalPad: {horizontalPadding + 'px'}"
+>
 	<slot />
 </div>
 
@@ -15,5 +20,6 @@
 		align-items: var(--align);
 		justify-content: var(--justify);
 		height: var(--height);
+		padding: var(--verticalPad) var(--horizontalPad);
 	}
 </style>

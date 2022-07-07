@@ -4,7 +4,7 @@
 	import SizedBox from "$lib/components/sizedBox.svelte";
 </script>
 
-<Column alignItems="center" justifyContent="center" height="75vh">
+<Column alignItems="center" justifyContent="center" height="90vh">
 	<Row alignItems="baseline" autoSwitch
 		><h3>Hi, my name is</h3>
 		<SizedBox width={15} height={15} />

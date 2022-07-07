@@ -1,6 +1,6 @@
-import { publish } from 'gh-pages';
+import ghpages from 'gh-pages';
 
-publish(
+ghpages.publish(
   'build', // path to public directory
   {
     branch: 'gh-pages',
