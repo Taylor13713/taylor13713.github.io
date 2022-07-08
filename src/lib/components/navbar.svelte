@@ -11,9 +11,8 @@
 </script>
 
 <Column>
-	<SizedBox height={30} />
-	<Row justifyContent="space-between" alignItems="center" horizontalPadding={50}>
-		<div class="hamburger-menu">
+	<Row justifyContent="space-between" alignItems="center">
+		<div class="hamburger-nav">
 			<Hamburger bind:open --color={colors.deepRed} type="spring" />
 		</div>
 		<div class="expanded-menu">
@@ -38,7 +37,7 @@
 		<img src="assets/personal_logo_red.svg" alt="personal_logo" />
 	</Row>
 	<SizedBox height={30} />
-	<div class="hamburger-menu">
+	<div class="hamburger-nav">
 		<HamburgerMenu bind:open />
 	</div>
 </Column>
@@ -49,34 +48,9 @@
 		padding: 0 !important;
 	}
 
-	.hamburger-menu {
+	.hamburger-nav {
 		display: none;
 	}
-
-	/* a {
-		position: relative;
-		text-decoration: none;
-	}
-
-	a::after {
-		content: "";
-		position: absolute;
-		display: block;
-		width: 100%;
-		height: 5px;
-		bottom: -8px;
-		left: 0;
-		background-color: var(--color);
-		opacity: 1;
-		transform: scale(0);
-		transform-origin: center;
-		transition: opacity 300ms, transform 300ms;
-	}
-
-	a:hover::after,
-	.show-underline::after {
-		transform: scale(1);
-	} */
 
 	img {
 		width: 65px;
@@ -84,7 +58,7 @@
 	}
 
 	@media only screen and (max-width: 768px) {
-		.hamburger-menu {
+		.hamburger-nav {
 			display: unset;
 		}
 

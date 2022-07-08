@@ -1,13 +1,12 @@
 <script lang="ts">
 	import Navbar from "$lib/components/navbar.svelte";
+	import SizedBox from "$lib/components/sizedBox.svelte";
 	import { colors } from "$lib/theme";
 </script>
 
 <body style="--bgColor: {colors.warmWhite}; --color:{colors.deepRed}">
-	<div class="nav-wrapper">
-		<Navbar />
-	</div>
 	<div class="page-wrapper">
+		<Navbar />
 		<slot />
 	</div>
 </body>
@@ -26,12 +25,6 @@
 
 	.page-wrapper {
 		margin: 30px 50px;
-	}
-
-	.nav-wrapper {
-		position: fixed;
-		top: 0;
-		width: 100%;
 	}
 
 	:global(h1) {
@@ -53,6 +46,13 @@
 		font-weight: 300;
 		margin: 0;
 		text-align: center;
+	}
+
+	:global(h4) {
+		font-size: 22px;
+		line-height: 32px;
+		font-weight: 400;
+		margin: 0;
 	}
 
 	:global(a) {
