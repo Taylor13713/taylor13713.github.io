@@ -1,13 +1,21 @@
 <script lang="ts">
 	import Navbar from "$lib/components/navbar.svelte";
-	import SizedBox from "$lib/components/sizedBox.svelte";
 	import { colors } from "$lib/theme";
+	import PageTransition from "$lib/components/page-transition.svelte";
+	import { onMount } from "svelte";
+
+	let ready = false;
+	onMount(() => (ready = true));
 </script>
 
 <body style="--bgColor: {colors.warmWhite}; --color:{colors.deepRed}">
 	<div class="page-wrapper">
 		<Navbar />
-		<slot />
+		<!-- {#if ready} -->
+		<PageTransition>
+			<slot />
+		</PageTransition>
+		<!-- {/if} -->
 	</div>
 </body>
 

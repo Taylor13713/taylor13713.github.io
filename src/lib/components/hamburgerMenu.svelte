@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { fly, slide } from "svelte/transition";
+	import { slide } from "svelte/transition";
 	import Column from "./column.svelte";
 	import { page } from "$app/stores";
 	import SizedBox from "./sizedBox.svelte";
