@@ -63,28 +63,15 @@
 		margin: 0;
 	}
 
+	:global(h5) {
+		font-size: 20px;
+		font-weight: 300;
+		margin: 0;
+	}
+
 	:global(a) {
 		color: var(--color);
 		position: relative;
 		text-decoration: none;
-	}
-
-	:global(a::after) {
-		content: "";
-		position: absolute;
-		display: block;
-		width: 100%;
-		height: 5px;
-		bottom: -8px;
-		left: 0;
-		background-color: var(--color);
-		opacity: 1;
-		transform: scale(0);
-		transform-origin: center;
-		transition: opacity 300ms, transform 300ms;
-	}
-
-	:global(a:hover::after, .show-underline::after) {
-		transform: scale(1);
 	}
 </style>

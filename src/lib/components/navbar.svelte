@@ -57,6 +57,26 @@
 		height: 75px;
 	}
 
+	a::after {
+		content: "";
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 5px;
+		bottom: -8px;
+		left: 0;
+		background-color: var(--color);
+		opacity: 1;
+		transform: scale(0);
+		transform-origin: center;
+		transition: opacity 300ms, transform 300ms;
+	}
+
+	a:hover::after,
+	.show-underline::after {
+		transform: scale(1);
+	}
+
 	@media only screen and (max-width: 768px) {
 		.hamburger-nav {
 			display: unset;

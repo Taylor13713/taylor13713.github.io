@@ -1,19 +1,25 @@
 <script lang="ts">
+	import Row from "./row.svelte";
+
 	export let reverse: boolean = false;
 </script>
 
-<div style="--gridDirection: {reverse ? 'rtl' : 'ltr'}">
-	<slot />
-</div>
+<Row justifyContent="center">
+	<div style="--gridDirection: {reverse ? 'rtl' : 'ltr'}">
+		<slot />
+	</div>
+</Row>
 
 <style>
 	div {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 50% 50%;
 		column-gap: 30px;
 		align-items: center;
 		justify-items: center;
 		direction: var(--gridDirection);
+		width: 100%;
+		max-width: 1500px;
 	}
 
 	@media only screen and (max-width: 768px) {
