@@ -2,7 +2,7 @@
 	"name": "taylor13713.github.io",
 	"version": "0.0.2",
 	"scripts": {
-		"dev": "svelte-kit dev",
+		"dev": "svelte-kit dev --port 3001",
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",

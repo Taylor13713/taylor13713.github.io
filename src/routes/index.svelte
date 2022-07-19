@@ -1,7 +1,7 @@
 <script>
-	import Column from "$lib/components/column.svelte";
-	import Row from "$lib/components/row.svelte";
-	import SizedBox from "$lib/components/sizedBox.svelte";
+	import Column from "$lib/atoms/column.svelte";
+	import Row from "$lib/atoms/row.svelte";
+	import SizedBox from "$lib/atoms/sizedBox.svelte";
 	import { colors } from "$lib/theme";
 	import Typewriter from "svelte-typewriter";
 </script>

@@ -1,11 +1,11 @@
 <script lang="ts">
-	import SizedBox from "./sizedBox.svelte";
+	import SizedBox from "../atoms/sizedBox.svelte";
 	import { colors } from "$lib/theme";
 	import { page } from "$app/stores";
-	import Row from "./row.svelte";
+	import Row from "../atoms/row.svelte";
 	import { Hamburger } from "svelte-hamburgers";
 	import HamburgerMenu from "./hamburgerMenu.svelte";
-	import Column from "./column.svelte";
+	import Column from "../atoms/column.svelte";
 
 	let open: boolean = false;
 </script>
@@ -34,7 +34,7 @@
 				</h2>
 			</Row>
 		</div>
-		<img src="assets/personal_logo_red.svg" alt="personal_logo" />
+		<img src="assets/personal_branding/personal_logo_red.svg" alt="personal_logo" />
 	</Row>
 	<SizedBox height={30} />
 	<div class="hamburger-nav">

@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { slide } from "svelte/transition";
-	import Column from "./column.svelte";
+	import Column from "../atoms/column.svelte";
 	import { page } from "$app/stores";
-	import SizedBox from "./sizedBox.svelte";
-	import Divider from "./divider.svelte";
+	import SizedBox from "../atoms/sizedBox.svelte";
+	import Divider from "../atoms/divider.svelte";
 
 	export let open: boolean = false;
 	const menuItems: Record<string, string>[] = [

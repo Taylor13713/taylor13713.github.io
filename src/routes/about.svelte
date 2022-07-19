@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Column from "$lib/components/column.svelte";
-	import Divider from "$lib/components/divider.svelte";
-	import SizedBox from "$lib/components/sizedBox.svelte";
+	import Column from "$lib/atoms/column.svelte";
+	import Divider from "$lib/atoms/divider.svelte";
+	import SizedBox from "$lib/atoms/sizedBox.svelte";
 	import TwoColumnGrid from "$lib/components/two-column-grid.svelte";
 	import { illustrationSets } from "$lib/theme";
 </script>

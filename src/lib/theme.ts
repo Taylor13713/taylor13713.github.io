@@ -6,7 +6,7 @@ export const colors: Record<string, string> = {
 
 export const illustrationSets: Record<string, string>[] = [
 	{
-		src: "assets/hello_red.svg",
+		src: "assets/personal_branding/hello_red.svg",
 		alt: "hello",
 		description:
 			"My name is Taylor. I major in Computer Science and minor in Collaborative Innovation at the University of Notre Dame. I am expected to graduate in May of 2023",
@@ -14,7 +14,7 @@ export const illustrationSets: Record<string, string>[] = [
 		width: "auto"
 	},
 	{
-		src: "assets/fullstack_red.svg",
+		src: "assets/personal_branding/fullstack_red.svg",
 		alt: "fullstack",
 		description:
 			"I am experienced in Fullstack Development with the specialization in Frontend and UI/UX Development",
@@ -22,7 +22,7 @@ export const illustrationSets: Record<string, string>[] = [
 		width: "400px"
 	},
 	{
-		src: "assets/design_red.svg",
+		src: "assets/personal_branding/design_red.svg",
 		alt: "design",
 		description:
 			"Out of all the areas of design, I specialize in human-centered UI/UX Design. I design and develop apps and websites with the goal of bettering other people’s lives",
@@ -30,24 +30,91 @@ export const illustrationSets: Record<string, string>[] = [
 		width: "auto"
 	},
 	{
-		src: "assets/ipad_red.svg",
+		src: "assets/personal_branding/ipad_red.svg",
 		alt: "drawing",
 		description: "Outside of my studies, I enjoy drawing anime fan-arts on my iPad",
 		height: "auto",
 		width: "auto"
 	},
 	{
-		src: "assets/red.svg",
+		src: "assets/personal_branding/red.svg",
 		alt: "red",
 		description: "My favorite color is red",
 		height: "auto",
 		width: "auto"
 	},
 	{
-		src: "assets/i_love_skog.svg",
+		src: "assets/personal_branding/i_love_skog.svg",
 		alt: "skog",
 		description: "I love boba tea and Djungelskog",
 		height: "auto",
 		width: "auto"
+	}
+];
+
+export const projectSets: Record<string, string>[] = [
+	{
+		src: "assets/my_beacon/my_beacon_home.svg",
+		alt: "my beacon home",
+		height: "515px",
+		width: "249px",
+		projectName: "My Beacon",
+		projectType: "Mobile Design & Development"
+	},
+	{
+		src: "assets/mdaware/mdaware_home.svg",
+		alt: "mdaware home",
+		height: "515px",
+		width: "249px",
+		projectName: "MDAware",
+		projectType: "Mobile Design"
+	},
+	{
+		src: "assets/st_bakhita_shop/stbakhita_shop_home.svg",
+		alt: "st.bakhita's shop home",
+		height: "95%",
+		width: "95%",
+		projectName: "St. Bakhita's Shop",
+		projectType: "Web Design"
+	},
+	{
+		src: "assets/personal_branding/personal_logo_red.svg",
+		alt: "personal logo",
+		height: "300px",
+		width: "300px",
+		projectName: "This Website",
+		projectType: "Web Design & Development"
+	},
+	{
+		src: "assets/st_bakhita_logo/stbakhita_logo.svg",
+		alt: "st.bakhita's logo",
+		height: "300px",
+		width: "300px",
+		projectName: "St. Bakhita's Logo",
+		projectType: "Logo Design"
+	},
+	{
+		src: "assets/interior_light/interior_light_stage.jpg",
+		alt: "interior light stage",
+		height: "95%",
+		width: "95%",
+		projectName: "Interior Light",
+		projectType: "Visual Communication Design - Typography"
+	},
+	{
+		src: "assets/book_design/book_design_covers.jpg",
+		alt: "book design covers",
+		height: "95%",
+		width: "95%",
+		projectName: "Book Design: Things You Should Know",
+		projectType: "Visual Communication Design - Typography"
+	},
+	{
+		src: "assets/magazine/magazine_cover.png",
+		alt: "magazine cover design",
+		height: "95%",
+		width: "95%",
+		projectName: "Magazine Design: Solidarity Against Hate",
+		projectType: "Visual Communication Design"
 	}
 ];

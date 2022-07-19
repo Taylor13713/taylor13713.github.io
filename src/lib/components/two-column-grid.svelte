@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Row from "./row.svelte";
+	import Row from "../atoms/row.svelte";
 
 	export let reverse: boolean = false;
 </script>
