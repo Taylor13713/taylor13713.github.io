@@ -34,7 +34,7 @@
 				</h2>
 			</Row>
 		</div>
-		<img src="assets/personal_branding/personal_logo_red.svg" alt="personal_logo" />
+		<img src="assets/personal_portfolio/personal_logo_red.svg" alt="personal_logo" />
 	</Row>
 	<SizedBox height={30} />
 	<div class="hamburger-nav">

@@ -59,15 +59,17 @@ export const projectSets: Record<string, string>[] = [
 		height: "515px",
 		width: "249px",
 		projectName: "My Beacon",
-		projectType: "Mobile Design & Development"
+		projectType: "Mobile Design & Development",
+		path: "my_beacon"
 	},
 	{
-		src: "assets/mdaware/mdaware_home.svg",
+		src: "assets/md_aware/mdaware_home.svg",
 		alt: "mdaware home",
 		height: "515px",
 		width: "249px",
 		projectName: "MDAware",
-		projectType: "Mobile Design"
+		projectType: "Mobile Design",
+		path: "md_aware"
 	},
 	{
 		src: "assets/st_bakhita_shop/stbakhita_shop_home.svg",
@@ -75,15 +77,17 @@ export const projectSets: Record<string, string>[] = [
 		height: "95%",
 		width: "95%",
 		projectName: "St. Bakhita's Shop",
-		projectType: "Web Design"
+		projectType: "Web Design",
+		path: "st_bakhita_shop"
 	},
 	{
-		src: "assets/personal_branding/personal_logo_red.svg",
+		src: "assets/personal_portfolio/personal_logo_red.svg",
 		alt: "personal logo",
 		height: "300px",
 		width: "300px",
-		projectName: "This Website",
-		projectType: "Web Design & Development"
+		projectName: "This Personal Portfolio Website",
+		projectType: "Web Design & Development",
+		path: "personal_portfolio"
 	},
 	{
 		src: "assets/st_bakhita_logo/stbakhita_logo.svg",
@@ -91,7 +95,8 @@ export const projectSets: Record<string, string>[] = [
 		height: "300px",
 		width: "300px",
 		projectName: "St. Bakhita's Logo",
-		projectType: "Logo Design"
+		projectType: "Logo Design",
+		path: "st_bakhita_logo"
 	},
 	{
 		src: "assets/interior_light/interior_light_stage.jpg",
@@ -99,22 +104,25 @@ export const projectSets: Record<string, string>[] = [
 		height: "95%",
 		width: "95%",
 		projectName: "Interior Light",
-		projectType: "Visual Communication Design - Typography"
+		projectType: "Visual Communication Design - Typography",
+		path: "interior_light"
 	},
 	{
-		src: "assets/book_design/book_design_covers.jpg",
+		src: "assets/things_you_should_know/book_design_covers.jpg",
 		alt: "book design covers",
 		height: "95%",
 		width: "95%",
 		projectName: "Book Design: Things You Should Know",
-		projectType: "Visual Communication Design - Typography"
+		projectType: "Visual Communication Design - Typography",
+		path: "things_you_should_know"
 	},
 	{
-		src: "assets/magazine/magazine_cover.png",
+		src: "assets/solidarity_against_hate/magazine_cover.png",
 		alt: "magazine cover design",
 		height: "95%",
 		width: "95%",
 		projectName: "Magazine Design: Solidarity Against Hate",
-		projectType: "Visual Communication Design"
+		projectType: "Visual Communication Design",
+		path: "solidarity_against_hate"
 	}
 ];

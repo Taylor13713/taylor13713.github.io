@@ -9,14 +9,14 @@
 
 <Column>
 	<SizedBox height={20} />
-	{#each projectSets as { src, alt, height, width, projectName, projectType }, i}
+	{#each projectSets as { src, alt, height, width, projectName, projectType, path }, i}
 		<TwoColumnGrid reverse={i % 2 === 1}>
 			<Column alignItems="center">
 				<h1>{projectName}</h1>
 				<SizedBox height={20} />
 				<h5>{projectType}</h5>
 				<SizedBox height={25} />
-				<LinkTo label="Learn More" link={`/project/${projectName}`} />
+				<LinkTo label="Learn More" link={`/project/${path}`} />
 			</Column>
 			<img {src} {alt} {height} {width} />
 		</TwoColumnGrid>
