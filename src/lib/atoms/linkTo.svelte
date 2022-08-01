@@ -15,10 +15,12 @@
 		font-size: 20px;
 		font-weight: 500;
 		padding: 10px 20px;
+		background-color: rgba(149, 30, 26, 0);
+		transition: background-color 0.5s;
 	}
 
 	a:hover {
-		background-color: var(--color);
 		color: var(--hoverTextColor);
+		background-color: var(--color);
 	}
 </style>

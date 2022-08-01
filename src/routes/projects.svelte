@@ -9,16 +9,18 @@
 
 <Column>
 	<SizedBox height={20} />
-	{#each projectSets as { src, alt, height, width, projectName, projectType, path }, i}
+	{#each projectSets as { coverName, alt, height, width, projectName, projectType, path, tools }, i}
 		<TwoColumnGrid reverse={i % 2 === 1}>
 			<Column alignItems="center">
 				<h1>{projectName}</h1>
 				<SizedBox height={20} />
 				<h5>{projectType}</h5>
+				<SizedBox height={10} />
+				<p>{`Tools: ${tools}`}</p>
 				<SizedBox height={25} />
 				<LinkTo label="Learn More" link={`/project/${path}`} />
 			</Column>
-			<img {src} {alt} {height} {width} />
+			<img src={`assets/${path}/${coverName}`} {alt} {height} {width} />
 		</TwoColumnGrid>
 		{#if i !== projectSets.length - 1}
 			<Divider verticalPadding={50} />

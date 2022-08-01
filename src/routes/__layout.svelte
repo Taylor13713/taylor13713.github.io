@@ -68,6 +68,11 @@
 		font-weight: 300;
 		margin: 0;
 	}
+	:global(p) {
+		font-size: 16px;
+		font-weight: 300;
+		margin: 0;
+	}
 
 	:global(a) {
 		color: var(--color);
