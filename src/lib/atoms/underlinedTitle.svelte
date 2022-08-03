@@ -17,7 +17,11 @@
 	}
 
 	.bar {
-		height: 3px;
+		height: 3.5px;
 		background-color: var(--bgColor);
+	}
+
+	h4 {
+		font-weight: 500;
 	}
 </style>

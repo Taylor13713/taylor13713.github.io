@@ -72,11 +72,22 @@
 		font-size: 16px;
 		font-weight: 300;
 		margin: 0;
+		line-height: 1.5;
 	}
 
 	:global(a) {
 		color: var(--color);
 		position: relative;
 		text-decoration: none;
+	}
+
+	:global(.paragraph-width-wrapper) {
+		width: 70%;
+	}
+
+	@media only screen and (max-width: 768px) {
+		:global(.paragraph-width-wrapper) {
+			width: 100%;
+		}
 	}
 </style>

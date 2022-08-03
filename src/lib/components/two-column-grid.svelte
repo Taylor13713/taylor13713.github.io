@@ -13,7 +13,7 @@
 <style>
 	div {
 		display: grid;
-		grid-template-columns: 50% 50%;
+		grid-template-columns: 1fr 1fr;
 		column-gap: 30px;
 		align-items: center;
 		justify-items: center;

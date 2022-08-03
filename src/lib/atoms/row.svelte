@@ -19,6 +19,7 @@
 	div {
 		display: flex;
 		flex-direction: row;
+		flex-wrap: wrap;
 		justify-content: var(--justify);
 		align-items: var(--align);
 		padding: var(--verticalPad) var(--horizontalPad);

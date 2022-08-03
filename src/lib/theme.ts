@@ -54,13 +54,13 @@ export const illustrationSets: Record<string, string>[] = [
 
 export const projectSets: Record<string, string>[] = [
 	{
-		coverName: "my_beacon_home.svg",
+		coverName: "myBeacon_home.svg",
 		alt: "my beacon home",
 		height: "515px",
 		width: "249px",
-		projectName: "My Beacon",
+		projectName: "MyBeacon",
 		projectType: "Mobile Design & Development",
-		path: "my_beacon",
+		path: "myBeacon",
 		tools: "Figma, Flutter"
 	},
 	{
