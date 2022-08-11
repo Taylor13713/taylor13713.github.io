@@ -64,7 +64,7 @@ export const projectSets: Record<string, string>[] = [
 		tools: "Figma, Flutter"
 	},
 	{
-		coverName: "md_aware_home.svg",
+		coverName: "md_aware_4.svg",
 		alt: "md_aware home",
 		height: "515px",
 		width: "249px",

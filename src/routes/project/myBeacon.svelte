@@ -6,7 +6,7 @@
 	import UnderlinedTitle from "$lib/atoms/underlinedTitle.svelte";
 	import ImageCarousel from "$lib/components/image-carousel.svelte";
 
-	let photos: string[] = [
+	const photos: string[] = [
 		"myBeacon_home.svg",
 		"myBeacon_1.svg",
 		"myBeacon_2.svg",
@@ -81,7 +81,12 @@
 		<SizedBox height={20} />
 
 		<UnderlinedTitle header="Additional Links" />
-		<SizedBox height={20} />
+		<SizedBox height={15} />
+		<p>
+			P.S. The screenshots on the app stores may be outdated. The screenshots included on this site
+			are from the newest version of the app.
+		</p>
+		<SizedBox height={15} />
 		<Row>
 			<LinkTo
 				link="https://apps.apple.com/us/app/mybeacon-beacon-college/id1526618027?platform=iphone"
