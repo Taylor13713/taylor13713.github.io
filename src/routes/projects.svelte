@@ -8,7 +8,6 @@
 </script>
 
 <Column>
-	<SizedBox height={20} />
 	{#each projectSets as { coverName, alt, height, width, projectName, projectType, path, tools }, i}
 		<TwoColumnGrid reverse={i % 2 === 1}>
 			<Column alignItems="center">

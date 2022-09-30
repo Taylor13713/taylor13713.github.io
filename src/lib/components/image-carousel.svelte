@@ -23,7 +23,7 @@
 		lastPressed = "prev";
 	};
 
-	const myOut = (element: any, params: any) => {
+	const myOut = (element: any) => {
 		return fly(element, { x: lastPressed === "next" ? -x : x, duration: 1000 });
 	};
 
@@ -63,17 +63,37 @@
 		height: var(--height);
 		position: absolute;
 		left: calc(50% - 0.5 * var(--width));
+		top: 135px;
+	}
+
+	@media only screen and (max-width: 768px) {
+		.carousel-wrapper {
+			height: calc(0.7 * var(--height));
+		}
+
+		.carousel-images {
+			width: calc(0.7 * var(--width));
+			height: calc(0.7 * var(--height));
+			left: calc(50% - 0.7 * 0.5 * var(--width));
+			top: auto;
+		}
 	}
 
 	@media only screen and (max-width: 425px) {
 		.carousel-wrapper {
-			height: calc(0.6 * var(--height));
+			height: calc(0.4 * var(--height));
 		}
 
 		.carousel-images {
-			width: calc(0.6 * var(--width));
-			height: calc(0.6 * var(--height));
-			left: calc(50% - 0.6 * 0.5 * var(--width));
+			width: calc(0.4 * var(--width));
+			height: calc(0.4 * var(--height));
+			left: calc(50% - 0.4 * 0.5 * var(--width));
+		}
+
+		.chevron {
+			width: 10px;
+			height: 10px;
+			cursor: pointer;
 		}
 	}
 </style>

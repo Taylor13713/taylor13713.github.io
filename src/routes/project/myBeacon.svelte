@@ -42,6 +42,14 @@
 		</p>
 		<SizedBox height={20} />
 
+		<UnderlinedTitle header="Statistics" />
+		<SizedBox height={15} />
+		<p>
+			This intuitive, easy-to-navigate app is currently used by around 400 members at the Beacon
+			College community, including students, their parents, faculty and staff.
+		</p>
+		<SizedBox height={20} />
+
 		<UnderlinedTitle header="Design & Development" />
 		<SizedBox height={15} />
 		<p>
@@ -69,14 +77,6 @@
 			After the app went live in the fall of 2021, we actively sought feedback from the community to
 			eliminate new bugs and improve the app. We also added additional features when requested, such
 			as Covid symptoms reporting.
-		</p>
-		<SizedBox height={20} />
-
-		<UnderlinedTitle header="Statistics" />
-		<SizedBox height={15} />
-		<p>
-			This intuitive, easy-to-navigate app is currently used by around 400 members at the Beacon
-			College community, including students, their parents, faculty and staff.
 		</p>
 		<SizedBox height={20} />
 

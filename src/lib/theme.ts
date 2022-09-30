@@ -71,10 +71,10 @@ export const projectSets: Record<string, string>[] = [
 		projectName: "MDAware",
 		projectType: "Mobile Design",
 		path: "md_aware",
-		tools: "Figma, Flutter"
+		tools: "Figma"
 	},
 	{
-		coverName: "stbakhita_shop_home.svg",
+		coverName: "st_bakhita_shop_home.svg",
 		alt: "st.bakhita's shop home",
 		height: "95%",
 		width: "95%",

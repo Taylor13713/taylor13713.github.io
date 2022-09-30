@@ -31,6 +31,7 @@
 				<SizedBox height={30} />
 			{/each}
 			<Divider delay={300} />
+			<SizedBox height={30} />
 		</Column>
 	</div>
 {/if}

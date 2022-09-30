@@ -43,6 +43,15 @@
 		</p>
 		<SizedBox height={20} />
 
+		<UnderlinedTitle header="Statistics" />
+		<SizedBox height={15} />
+		<p>
+			MDAware is still actively used at Bringham & Women's Hospital today. The tasks are completed
+			on average aorund 1000 per weeek, and there have been around 70,000 tasks completed in total.
+			It is also used at Boston Children's Hospital since April of 2022.
+		</p>
+		<SizedBox height={20} />
+
 		<UnderlinedTitle header="Design Process" />
 		<SizedBox height={15} />
 		<p>
@@ -75,15 +84,8 @@
 			Throughout the app, we also utilized similar illustrations to the ones on the landing screen
 			to make the designs more cohesive and lively.
 		</p>
-		<SizedBox height={20} />
-
-		<UnderlinedTitle header="Statistics" />
-		<SizedBox height={15} />
-		<p>
-			MDAware is still actively used at Bringham & Women's Hospital today. The tasks are completed
-			on average aorund 1000 per weeek, and there have been around 70,000 tasks completed in total.
-			It is also used at Boston Children's Hospital since April of 2022.
-		</p>
+		<SizedBox height={10} />
+		<p>I re-designed the app using Figma. My partner then implemented the re-design in Flutter.</p>
 		<SizedBox height={20} />
 
 		<UnderlinedTitle header="Additional Links" />
